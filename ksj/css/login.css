@@ -1,0 +1,125 @@
+/* 
+로그인, 회원가입, SNS회원가입
+*/
+
+main{
+    background-color: #ddd;
+}
+.content-main{
+ padding: 60px;
+}
+
+#login-box{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px 1px rgb(0 0 0 / 20%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+#login-box > img{
+    width: 180px;
+}
+.loginTitle{
+    margin: 0;
+    font-size: 26px;
+    line-height: 20px;
+    font-weight: 500;
+    display: inline-block;
+}
+#login-form{
+    margin-top: 20px;
+}
+#login-form input {
+    width: 340px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+    outline: 0;
+}
+#login-form > div{
+   padding-left: 10px;
+   font-size: 13px;
+   color: red;
+}
+#login-btn{
+    width: 340px;
+    height: 40px;
+    background-color: #392eff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.login-other {
+    color: #8c8c8c;
+    margin: 35px 0 10px 0;
+    font-size: 14px;
+
+}
+.login-other > div{
+    text-align: center;
+}
+.login-other a{
+    color: #392eff;
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+hr {
+    width: 100%;
+    border:none;
+
+    position: relative;
+}
+.line::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 100%;
+    border-top: 1px solid rgb(216, 216, 216);
+}
+
+.line::after{
+    content: "OR";
+    position: relative;
+    top: -2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(160, 160, 160);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    line-height: 19px;
+    vertical-align: middle;
+    padding: 0px 14px;
+    left: 145px;
+}
+
+#sns{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+#sns > img {
+    width: 40px;
+}

@@ -1,0 +1,121 @@
+.searcharea{
+    width: 1200px;
+    margin: auto;
+}
+
+.searcharea > #inputarea{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#searchIcon{
+    background-color: rgb(0, 255, 190);
+    color: white;
+    width: 56px;
+    height: 56px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(204,204,204,192);
+    border-radius: 5% 0 0 5%;
+}
+
+#inputbox{
+    border: 1px solid rgba(204,204,204,192);
+    width: 405px;
+    height: 56px;
+    border-radius: 0 5px 5px 0;
+}
+
+#inputbox:focus{
+    outline-color: #392eff;
+}
+
+#inputbox::placeholder{
+    color: rgba(188,188,188,200);
+}
+
+.searchExp{
+    width: 950px;
+    color: grey;
+    margin: auto;
+}
+
+.reviewList{
+    border-collapse: collapse;
+    width: 950px;
+    height: 210px;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.reviewList *{
+    border: 2px solid rgba(188,188,188,177);
+}
+
+tbody td{
+    text-align: center;
+}
+
+.tr-active{
+    border: 2.01px solid rgb(0, 255, 190);
+    color: grey;
+}
+
+.listArea{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 37px;
+}
+
+.listArea *{
+    margin: 12px;
+    cursor: pointer;
+}
+
+.listArea span:not(:first-of-type,:last-of-type){
+    padding: 3px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.listArea span:first-of-type,.listArea span:last-of-type{
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.reviewContent{
+    width: 1200px;
+    margin: auto;
+}
+
+.reviewContent .reviewNumber{
+    width: 950px;
+    height: 146px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.reviewNumber > #Number {
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    display: inline-block;
+    padding: 12px 25px 12px 30px;
+    
+}
+
+.reviewNumber > #userEmail{
+    margin: 15px;
+    font-size: smaller;
+    color: rgba(150,150,150,177);
+}
+
